@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box0;
+}
+body {
+    height: 100vh;
+    font-size: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar {
+    margin-top: 50px;
+}
+.navbar a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+    opacity: 0.5;
+}
+.navbar a:hover{
+    color: black;
+    opacity: 1;
+}
+.navbar .btn {
+    color: white;
+    background-color: hsl(180, 66%, 49%);
+    opacity: 1;
+    padding: .375rem 1rem;
+    border-radius: 20cm;
+}
+.navbar .btn:hover{
+    color: white;
+    background-color: hsl(180, 66%, 49%);
+    opacity: 0.5;
+}
+.main {
+    margin-top: 50px;
+}
+.main h1{
+    font-weight: 700;
+}
+.main .first {
+    padding-left: 25px;
+    padding-top: 50px;
+}
+.first h1 {
+    font-size: 75px;
+}
+.first p {
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 50px;
+    opacity: 0.7;
+}
+.main .link{
+    background-color: hsl(180, 66%, 49%);
+    opacity: 1;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    border-radius: 20cm;
+    cursor: pointer;
+}
+.main .link:hover{
+    color: white;
+    background-color: hsl(180, 66%, 49%);
+    opacity: 0.5;
+}
+.main .scnd img{
+    position: relative;
+    right: -35%;
+}
+.area {
+    background: hsl(257, 27%, 26%) url('assets/bg-shorten-desktop.svg');
+    background-repeat: no-repeat;
+    width: 70%;
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+form {
+    display: flex;
+}
+form .text {
+    width: 80%;
+}
+form .btn {
+    color: white;
+    background-color: hsl(180, 66%, 49%);
+    opacity: 1;
+    padding: .375rem 1rem;
+    margin-left: 25px;
+}
+form .btn:hover{
+    color: white;
+    background-color: hsl(180, 66%, 49%);
+    opacity: 0.5;
+}
+.clr {
+    background: hsl(257, 7%, 63%);
+}
+.intro {
+    margin-top: 50px;
+}
+.statistics .head h1{
+    font-weight: 700;
+    padding: 0px 200px;
+}
+.statistics p {
+    font-weight: 500;
+    font-size: 15px;
+    opacity: 0.7;
+}
+.statistics .card {
+    border: none;
+}
+.slider {
+    background: url('assets/bg-boost-desktop.svg'), hsl(257, 27%, 26%) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    margin-top: 50px;
+}
+.content {
+    padding: 50px;
+}
+.content h2{
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.slider .link{
+    background-color: hsl(180, 66%, 49%);
+    opacity: 1;
+    color: white;
+    text-decoration: none;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    border-radius: 20cm;
+    cursor: pointer;
+}
+.slider .link:hover{
+    color: rgb(255, 255, 255);
+    background-color: hsl(180, 86%, 53%);
+    opacity: 1;
+}
+footer {
+    color: white;
+    background: black;
+}
+.footer {
+    margin: auto;
+    padding: 50px;
+}
+.footer .links ul{
+    list-style: none;
+    padding-left: 0px;
+    font-weight: 500;
+}
+.footer ul li {
+    margin-top: 5px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: white;
+    opacity: 0.7;
+}
+.footer ul li a:hover {
+    color: cyan;
+}
+.footer .frth {
+    padding-left: 0px;
+}
+ i {
+    margin: 10px;
+    font-size: x-large;
+}
+i:hover {
+    color: cyan;
+}
+@media only screen and (max-width: 600px){
+    #navbarSupportedContent {
+        background: hsl(257, 27%, 26%);
+        border-radius: 8px;
+        margin-top: 25px;
+        padding: 25px;
+    }
+    #navbarSupportedContent .nav-link{
+        color: white;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: x-large;
+        opacity: 1;
+        margin: 10px 0px;
+    }
+    #navbarSupportedContent .btn {
+        width: 100%;
+        padding: 15px 30px;
+        font-size: x-large;
+    }
+    .main {
+        text-align: center;
+    }
+    .main h1 {
+        font-size: 4rem;
+    }
+    .main p {            
+        font-weight: 500;
+        font-size: 30px;
+        opacity: 0.7;
+    }
+    .area {
+        display: block;
+        background: hsl(257, 27%, 26%) url('assets/bg-shorten-desktop.svg');
+        background-repeat: no-repeat;
+        width: 80%;
+        padding: 40px;
+        border-radius: 10px;
+        margin: 50px 80px 0px 80px;
+    }
+    .area form {
+        display: flex;
+    }
+    .footer {
+        text-align: center;
+    }
+    .footer .links{
+        font-size: 25px;
+    }
+    .footer .col-md-4, .col-md-2 {
+        margin-bottom: 40px;
+    }
+}
+@media only screen and (min-width: 900px){
+    .extrnl{
+        display: flex;
+        }
+}
